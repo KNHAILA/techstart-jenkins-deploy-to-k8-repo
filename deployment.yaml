@@ -18,7 +18,7 @@ spec:
       - name: ecr-key
       containers:
       - name: myapp
-        image: 590183770136.dkr.ecr.ap-south-1.amazonaws.com/myapptechstart:latest
+        image: 643572392930.dkr.ecr.eu-west-1.amazonaws.com/sast:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
